@@ -12,4 +12,4 @@ JOIN
 ON
     orders.order_key = line_items.order_key
 ORDER BY
-    orders.order_key
+    orders.order_date
